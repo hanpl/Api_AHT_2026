@@ -68,8 +68,8 @@ namespace AHTAPI.Repositories
         public DataTable GetFlightByCounterAndIp(string date, string ip)
         {
             string query = "SELECT F.Id, F.ScheduledDate,F.Schedule, F.Estimated, F.Actual, CONCAT(F.LineCode, F.Number) AS Flight, F.Mcdt, "+
-                           "F.LineCode, F.City, F.Gate, F.Remark, F.Status, F.RowFrom, F.RowTo, F.CheckInCounters, F.CounterStart, F.CounterEnd, F.GateStart, F.GateEnd "+
-                           "FROM AHT_FidsLocation C LEFT JOIN AHT_FlightInformation F ON C.Name = F.Gate " +
+                           "F.LineCode, F.City, F.Gate, F.Remark, F.Status, F.RowFrom, F.RowTo, F.CheckInCounters, F.CounterStart, F.CounterEnd, F.GateStart, F.GateEnd , F.Comment " +
+                           "FROM AHT_FidsInformation C LEFT JOIN AHT_FlightInformation F ON C.Name = F.Gate " +
                            "AND F.Schedule BETWEEN DATEADD(HOUR, 5, CAST(CAST(@Date AS DATE) AS DATETIME)) "+
                            "AND DATEADD(HOUR, 28, CAST(CAST(@Date AS DATE) AS DATETIME)) and F.Remark<> 'Departed' and F.Remark<> 'Gate closed' " +
                            "AND F.Status<> '' AND F.Status<> 'Cancelled' AND F.Adi = 'D' WHERE C.Ip = @local Order by Schedule ASC ";

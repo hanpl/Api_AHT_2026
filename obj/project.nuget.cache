@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qO51m+WW1Wk=",
+  "dgSpecHash": "O/PG3oL1Wlo=",
   "success": true,
-  "projectFilePath": "F:\\Hanpl\\AHT_WORK\\WebApiAHT\\AHTAPI.csproj",
+  "projectFilePath": "F:\\Hanpl\\AHT_WORK\\WebApiAHT\\Api_AHT_2026\\AHTAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

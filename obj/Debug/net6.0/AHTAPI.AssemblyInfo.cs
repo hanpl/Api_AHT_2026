@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AHTAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ae0822b57d03c036200c0ecb99eeaaa7160cd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2531ca5477ad26e8c41a9e1ef709b0ac79e0a144")]
 [assembly: System.Reflection.AssemblyProductAttribute("AHTAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AHTAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
